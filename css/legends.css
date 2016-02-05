@@ -1,0 +1,5 @@
+/*Let's make it responsive first before anything else*/
+@@charset "UTF-8";
+@-ms-viewport{
+  width: device-width;
+}
