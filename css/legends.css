@@ -32,17 +32,22 @@
 .thin{
   font-family: robotothin;
 }
-/*Landing*/
-html, body, #landing {
+html, body, .mysection{
   width: 100%;
   height: 100%;
+  margin: 0 auto;
+
+}
+/*Landing*/
+#landing {
   background: url('../assets/bg_landing.jpg');
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: fixed;
   position: relative;
 }
 /*Overlay*/
-#overlay{
+.overlay{
   position: absolute;
   top: 0;
   left: 0;
@@ -80,3 +85,4 @@ html, body, #landing {
   left: 0;
   z-index: 2;
 }
+/*WHAT WE DO SECTION*/
