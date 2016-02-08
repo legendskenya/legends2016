@@ -3,7 +3,35 @@
 @-ms-viewport{
   width: device-width;
 }
-
+/*WEBFONTS LOAD HERE*/
+/* Typoslab serif */
+@font-face {
+    font-family: 'typo';
+    src: url('../fonts/TypoSlabserif-Light-webfont.eot');
+    src: url('../fonts/TypoSlabserif-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/TypoSlabserif-Light-webfont.woff') format('woff'),
+         url('../fonts/TypoSlabserif-Light-webfont.ttf') format('truetype'),
+         url('../fonts/TypoSlabserif-Light-webfont.svg#typoslabserif-lightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/*Roboto thin webfont*/
+@font-face {
+    font-family: 'robotothin';
+    src: url('../fonts/Roboto-Thin-webfont.eot');
+    src: url('../fonts/Roboto-Thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Roboto-Thin-webfont.woff') format('woff'),
+         url('../fonts/Roboto-Thin-webfont.ttf') format('truetype'),
+         url('../fonts/Roboto-Thin-webfont.svg#robotothin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+.typo{
+  font-family: typo;
+}
+.thin{
+  font-family: robotothin;
+}
 /*Landing*/
 html, body, #landing {
   width: 100%;
@@ -20,22 +48,35 @@ html, body, #landing {
   left: 0;
   width: 100%;
   height: inherit;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 7;
 }
 /*Menu*/
 #menu{
   width: 100%;
-  height: 130px;
+  height: 150px;
+  color: white solid;
   /*background: #000;*/
   z-index: 10;
 }
-#menu ul li{
+#menu ul li a{
   display: inline-block;
   color: white !important;
 }
 #menu ul{
-  padding-top: 3em;
+  padding-top: 3em !important;
 }
 .logo{
   padding-right: 10em;
+}
+#head{
+  font-size: 4em;
+  color: #fff;
+}
+.slider{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  z-index: 2;
 }

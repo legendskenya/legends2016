@@ -1,0 +1,48 @@
+/*Animated pointing down arrow*/
+.arrow-down {
+  display: block;
+  margin: 25px auto 0;
+  width: 0;
+  height: 0;
+  position: relative;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 15px solid #fff;
+  -webkit-animation: arrowDown 2s infinite;
+     -moz-animation: arrowDown 2s infinite;
+          animation: arrowDown 2s infinite;
+}
+
+@keyframes arrowDown {
+  0% {
+    top: 0;
+  }
+  25% {
+    top: 10px;
+  }
+  50% {
+    top: 0px;
+  }
+}
+@-webkit-keyframes arrowDown {
+  0% {
+    top: 0;
+  }
+  25% {
+    top: 10px;
+  }
+  50% {
+    top: 0px;
+  }
+}
+@-moz-keyframes arrowDown {
+  0% {
+    top: 0;
+  }
+  25% {
+    top: 10px;
+  }
+  50% {
+    top: 0px;
+  }
+}
