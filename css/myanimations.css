@@ -7,7 +7,7 @@
   position: relative;
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
-  border-top: 15px solid #fff;
+  border-top: 15px solid #f0b323;
   -webkit-animation: arrowDown 2s infinite;
      -moz-animation: arrowDown 2s infinite;
           animation: arrowDown 2s infinite;
