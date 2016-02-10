@@ -54,7 +54,42 @@
     </div>
     <!-- WHAT WE DO SECTION STARTS HERE -->
     <div class="mysection" id="doing">
-      <br>
+        <!-- START SLIDER CODE -->
+        <div id="jssor_1" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden; visibility: hidden;">
+          <!-- Loading Screen -->
+          <div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
+              <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
+              <div style="position:absolute;display:block;background:url('img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
+          </div>
+          <div data-u="slides" class="jsize">
+              <div data-p="225.00" style="display: none;">
+                  <img data-u="image" src="assets/design.jpg" />
+                  <div style="position: absolute; top: 30px; left: 30px; width: 480px; height: 120px; font-size: 50px; color: #ffffff; line-height: 60px;">
+                    TOUCH SWIPE SLIDER
+                  </div>
+                  <div style="position: absolute; top: 300px; left: 30px; width: 480px; height: 120px; font-size: 30px; color: #ffffff; line-height: 38px;">
+                    Build your slider with anything, includes image, content, text, html, photo, picture
+                  </div>
+
+              </div>
+              <div data-p="225.00" style="display: none;">
+                  <img data-u="image" src="assets/home.jpg" />
+              </div>
+              <div data-p="225.00" style="display: none;">
+                  <img data-u="image" src="assets/transport.jpg" />
+              </div>
+          </div>
+          <!-- Bullet Navigator -->
+          <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;" data-autocenter="1">
+              <!-- bullet navigator item prototype -->
+              <div data-u="prototype" style="width:16px;height:16px;"></div>
+          </div>
+          <!-- Arrow Navigator -->
+          <span data-u="arrowleft" class="jssora22l" style="top:0px;left:12px;width:40px;height:58px;" data-autocenter="2"></span>
+          <span data-u="arrowright" class="jssora22r" style="top:0px;right:12px;width:40px;height:58px;" data-autocenter="2"></span>
+        </div>
+          <!-- SLIDER ENDS HERE -->
+      <!-- <br>
       <br>
       <div class="row thin">
         <div class="small-4 large-offset-1 columns">
@@ -74,7 +109,7 @@
           Ut laoreet erat est, sed imperdiet nisl tincidunt non.
           Phasellus quam lorem.
         </div>
-      </div>
+      </div> -->
       <a href="#" class="topeople">
         <div class="arrow-down"></div>
       </a>
@@ -118,4 +153,6 @@
   <script src="foundation.js"></script>
   <script src="js/legends.js"></script>
   <script src="js/jquery-scrollto.js"></script>
+  <script src="js/jssor.slider.min.js"></script>
+  <script src="js/slider.js" charset="utf-8"></script>
 </html>
