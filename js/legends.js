@@ -12,4 +12,19 @@ $(function(){
       durationMode: 'all'
     });
   });
+  $('.toword').click(function(){
+    $('#word').ScrollTo({
+      duration: 2000,
+      durationMode: 'all'
+    });
+  });
+
+// Hover effects on profile pictures
+  $('.profile').mouseenter(function(){
+    $(this).animate({height: '+=150px',width: '+=150px'}, 400);
+  });
+  $('.profile').mouseleave(function(){
+    $(this).animate({height: '-=150px', width: '-=150px'}, 400);
+  });
+
 });

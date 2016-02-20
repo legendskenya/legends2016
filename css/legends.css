@@ -180,5 +180,29 @@ html, body, .mysection{
 }
 
 /*OUR PEOPLE SECTION*/
-#people{
+#people img{
+  /*padding: 3px;*/
 }
+#people p{
+  text-align: justify;
+}
+#people a{
+  position: relative;
+}
+#people a:hover span{
+  display: block;
+}
+#people a span{
+  display: none;
+  position: absolute;top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0,0,0,0.6);
+}
+.toword{
+  bottom: 5%;
+  left: 50%;
+}
+
+/*WORD FROM CHAIR*/
