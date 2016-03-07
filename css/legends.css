@@ -180,6 +180,9 @@ html, body, .mysection{
 }
 
 /*OUR PEOPLE SECTION*/
+#people{
+  overflow-x: hidden;
+}
 #people img{
   /*padding: 3px;*/
 }

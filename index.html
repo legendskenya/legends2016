@@ -11,217 +11,224 @@
     <link rel="stylesheet" href="css/foundation-flex.css">
     <link rel="stylesheet" href="css/myanimations.css">
     <script src="js/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="css/jquery.fullpage.min.css">
+    <script src="js/sectionScroll.js" type="text/javascript"></script>
   </head>
   <body>
-    <div class="mysection" id="landing">
-      <div class="overlay">
-        <div id="menu">
-          <div class="row align-bottom thin">
-            <div class="column align-bottom">
-              <ul class="menu">
-                <li class="logo">
-                  <a href="#">
-                    <img src="assets/logo.png" alt="Legends Investment Group">
+    <!-- Used fullpage js scrolling to different sections that is mobile responsive -->
+    <div id="fullpage">
+        <div class="section" id="landing" data-anchor="firstPage">
+          <div class="overlay">
+            <div id="menu">
+              <div class="row align-bottom thin">
+                <div class="column align-bottom">
+                  <ul class="menu">
+                    <li class="logo">
+                      <a href="#">
+                        <img src="assets/logo.png" alt="Legends Investment Group">
+                      </a>
+                    </li>
+                    <li><a href="#">ABOUT US</a></li>
+                    <li><a href="#">BUSINESS</a></li>
+                    <li><a href="#">OUR PEOPLE</a></li>
+                    <li><a href="#">CONTACT US</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <br>
+            <br>
+            <div id="head" class="row align-bottom">
+              <div class="large-offset-1 column-align-middle thin">
+                <p>WE ARE LEGENDS
+                  <br>
+                <small>INSPIRING AND SHAPING AFRICA'S ECONOMY</small>
+              </p>
+              </div>
+            </div>
+            <a href="#" class="todoing">
+              <div class="arrow-down"></div>
+            </a>
+          </div>
+          <!-- <div class="slider">
+            <div class="row align-bottom">
+              <p>LEGENDS</p>
+            </div>
+          </div> -->
+        </div>
+        <!-- WHAT WE DO SECTION STARTS HERE -->
+        <div class="section" id="doing"  data-anchor="secondPage">
+            <!-- START SLIDER CODE -->
+            <div id="jssor_1" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 1366px; height: 700px; overflow: hidden; visibility: hidden;">
+              <!-- Loading Screen -->
+              <div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
+                  <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
+                  <div style="position:absolute;display:block;background:url('img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
+              </div>
+              <div data-u="slides" class="jsize thin">
+                  <div data-p="225.00" style="display: none;">
+                      <img data-u="image" src="assets/design.jpg" />
+                      <div class="slidertopic">
+                        WEB DESIGN
+                      </div>
+                      <div class="slidertext">
+                        We make it look elegent and beautiful.
+                      </div>
+                  </div>
+                  <div data-p="225.00" style="display: none;">
+                      <img data-u="image" src="assets/home.jpg" />
+                      <div class="slidertopic">
+                        SOFTWARE ENGINEERING
+                      </div>
+                      <div class="slidertext">
+                        Professionalism is our other name.
+                      </div>
+                  </div>
+                  <div data-p="225.00" style="display: none;">
+                      <img data-u="image" src="assets/transport.jpg" />
+                      <div class="slidertopic">
+                        TRANSPORT
+                      </div>
+                      <div class="slidertext">
+                        Book one of our luxurious rides today
+                      </div>
+                  </div>
+                  <!-- ARROW DOWN -->
+                  <a href="#" class="topeople">
+                    <div class="arrow-down"></div>
                   </a>
-                </li>
-                <li><a href="#">ABOUT US</a></li>
-                <li><a href="#">BUSINESS</a></li>
-                <li><a href="#">OUR PEOPLE</a></li>
-                <li><a href="#">CONTACT US</a></li>
-              </ul>
+              </div>
+              <!-- Bullet Navigator -->
+              <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;" data-autocenter="1">
+                  <!-- bullet navigator item prototype -->
+                  <div data-u="prototype" style="width:16px;height:16px;"></div>
+              </div>
+              <!-- Arrow Navigator -->
+              <span data-u="arrowleft" class="jssora22l" style="top:0px;left:12px;width:40px;height:58px;" data-autocenter="2"></span>
+              <span data-u="arrowright" class="jssora22r" style="top:0px;right:12px;width:40px;height:58px;" data-autocenter="2"></span>
             </div>
-          </div>
-        </div>
-        <br>
-        <br>
-        <div id="head" class="row align-bottom">
-          <div class="large-offset-1 column-align-middle thin">
-            <p>WE ARE LEGENDS
-              <br>
-            <small>INSPIRING AND SHAPING AFRICA'S ECONOMY</small>
-          </p>
-          </div>
-        </div>
-        <a href="#" class="todoing">
-          <div class="arrow-down"></div>
-        </a>
-      </div>
-      <!-- <div class="slider">
-        <div class="row align-bottom">
-          <p>LEGENDS</p>
-        </div>
-      </div> -->
-    </div>
-    <!-- WHAT WE DO SECTION STARTS HERE -->
-    <div id="doing">
-        <!-- START SLIDER CODE -->
-        <div id="jssor_1" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 1366px; height: 700px; overflow: hidden; visibility: hidden;">
-          <!-- Loading Screen -->
-          <div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
-              <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
-              <div style="position:absolute;display:block;background:url('img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
-          </div>
-          <div data-u="slides" class="jsize thin">
-              <div data-p="225.00" style="display: none;">
-                  <img data-u="image" src="assets/design.jpg" />
-                  <div class="slidertopic">
-                    WEB DESIGN
-                  </div>
-                  <div class="slidertext">
-                    We make it look elegent and beautiful.
-                  </div>
-              </div>
-              <div data-p="225.00" style="display: none;">
-                  <img data-u="image" src="assets/home.jpg" />
-                  <div class="slidertopic">
-                    SOFTWARE ENGINEERING
-                  </div>
-                  <div class="slidertext">
-                    Professionalism is our other name.
-                  </div>
-              </div>
-              <div data-p="225.00" style="display: none;">
-                  <img data-u="image" src="assets/transport.jpg" />
-                  <div class="slidertopic">
-                    TRANSPORT
-                  </div>
-                  <div class="slidertext">
-                    Book one of our luxurious rides today
-                  </div>
-              </div>
-              <!-- ARROW DOWN -->
-              <a href="#" class="topeople">
-                <div class="arrow-down"></div>
-              </a>
-          </div>
-          <!-- Bullet Navigator -->
-          <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;" data-autocenter="1">
-              <!-- bullet navigator item prototype -->
-              <div data-u="prototype" style="width:16px;height:16px;"></div>
-          </div>
-          <!-- Arrow Navigator -->
-          <span data-u="arrowleft" class="jssora22l" style="top:0px;left:12px;width:40px;height:58px;" data-autocenter="2"></span>
-          <span data-u="arrowright" class="jssora22r" style="top:0px;right:12px;width:40px;height:58px;" data-autocenter="2"></span>
-        </div>
-          <!-- SLIDER ENDS HERE -->
-      <!-- <br>
-      <br>
-      <div class="row thin">
-        <div class="small-4 large-offset-1 columns">
-          <h3>What We Do</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Ut laoreet erat est, sed imperdiet nisl tincidunt non.
-            Phasellus quam lorem.
-            <br>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Ut laoreet erat est, sed imperdiet nisl tincidunt non.
-            Phasellus quam lorem.
-          </p>
-        </div>
-        <div class="small-5 columns">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          Ut laoreet erat est, sed imperdiet nisl tincidunt non.
-          Phasellus quam lorem.
-        </div>
-      </div> -->
-
-    </div>
-    <!-- OUR PEOPLE SECTION STARTS HERE -->
-    <div class="mysection" id="people">
-      <br>
-      <br>
-      <div class="row medium-unstack thin">
-        <div class="medium-4 large-offset-1 columns">
-          <h3 class="thin">Our People Make Us Legendary</h3>
-          <p>
-            Meet some of the most passionate people who have made legends
-            to be where it is today.
-            <br>
-            We believe in becoming the best at who we are and what we do;
-            becoming legendary
-          </p>
-        </div>
-        &nbsp;
-        <!-- PRO PHOTOS WITH LINKS GO HERE -->
-        <div class="medium-6 columns">
-          <div class="row medium-unstack">
-            <div class="columns">
-              <a class="profile" href="https://www.linkedin.com/in/kemboidickson" target="_blank">
-                <img src="assets/dickson.jpg">
+              <!-- SLIDER ENDS HERE -->
+          <!-- <br>
+          <br>
+          <div class="row thin">
+            <div class="small-4 large-offset-1 columns">
+              <h3>What We Do</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Ut laoreet erat est, sed imperdiet nisl tincidunt non.
+                Phasellus quam lorem.
                 <br>
-                <span>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </span>
-              </a>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Ut laoreet erat est, sed imperdiet nisl tincidunt non.
+                Phasellus quam lorem.
+              </p>
+            </div>
+            <div class="small-5 columns">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Ut laoreet erat est, sed imperdiet nisl tincidunt non.
+              Phasellus quam lorem.
+            </div>
+          </div> -->
+
+        </div>
+        <!-- OUR PEOPLE SECTION STARTS HERE -->
+        <div class="section" id="people"  data-anchor="thirdPage">
+          <br>
+          <br>
+          <div class="row medium-unstack thin">
+            <div class="medium-4 large-offset-1 columns">
+              <h3 class="thin">Our People Make Us Legendary</h3>
+              <p>
+                Meet some of the most passionate people who have made legends
+                to be where it is today.
+                <br>
+                We believe in becoming the best at who we are and what we do;
+                becoming legendary
+              </p>
             </div>
             &nbsp;
-            <div class="columns">
-              <a href="#" target="_blank" class="profile">
-                <img src="assets/dickson.jpg">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </p>
-              </a>
-            </div>
-            &nbsp;
-            <div class="columns">
-              <a href="#" target="_blank" class="profile">
-                <img src="assets/dickson.jpg">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </p>
-              </a>
+            <!-- PRO PHOTOS WITH LINKS GO HERE -->
+            <div class="medium-6 columns">
+              <div class="row medium-unstack">
+                <div class="columns">
+                  <a class="profile" href="https://www.linkedin.com/in/kemboidickson" target="_blank">
+                    <img src="assets/dickson.jpg">
+                    <br>
+                    <span>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </span>
+                  </a>
+                </div>
+                &nbsp;
+                <div class="columns">
+                  <a href="#" target="_blank" class="profile">
+                    <img src="assets/dickson.jpg">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                  </a>
+                </div>
+                &nbsp;
+                <div class="columns">
+                  <a href="#" target="_blank" class="profile">
+                    <img src="assets/dickson.jpg">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                  </a>
+                </div>
+              </div>
+              <br />
+              <br />
+              <div class="row">
+                <div class="columns">
+                  <a href="#" target="_blank" class="profile">
+                    <img src="assets/dickson.jpg">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                  </a>
+                </div>
+                &nbsp;
+                <div class="columns">
+                  <a href="#" target="_blank" class="profile">
+                    <img src="assets/dickson.jpg">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                  </a>
+                </div>
+                &nbsp;
+                <div class="columns">
+                  <a href="#" target="_blank" class="profile">
+                    <img src="assets/dickson.jpg">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
-          <br />
-          <br />
-          <div class="row">
-            <div class="columns">
-              <a href="#" target="_blank" class="profile">
-                <img src="assets/dickson.jpg">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </p>
-              </a>
-            </div>
-            &nbsp;
-            <div class="columns">
-              <a href="#" target="_blank" class="profile">
-                <img src="assets/dickson.jpg">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </p>
-              </a>
-            </div>
-            &nbsp;
-            <div class="columns">
-              <a href="#" target="_blank" class="profile">
-                <img src="assets/dickson.jpg">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </p>
-              </a>
-            </div>
+          <br>
+          <br>
+          <br>
+          <a href="#" class="toword">
+            <div class="arrow-down"></div>
+          </a>
+        </div>
+        <div class="mysection" id="word">
+          <div class="row thin">
+
           </div>
         </div>
-      </div>
-      <br>
-      <br>
-      <br>
-      <a href="#" class="toword">
-        <div class="arrow-down"></div>
-      </a>
-    </div>
-    <div class="mysection" id="word">
-      <div class="row thin">
-
-      </div>
     </div>
   </body>
-  <script src="foundation.js"></script>
+  <script src="js/foundation.js"></script>
   <script src="js/legends.js"></script>
-  <script src="js/jquery-scrollto.js"></script>
+  <!-- <script src="js/jquery-scrollto.js"></script> -->
+  <script src="js/jquery.fullpage.min.js"></script>
   <script src="js/jssor.slider.min.js"></script>
   <script src="js/slider.js" charset="utf-8"></script>
 </html>

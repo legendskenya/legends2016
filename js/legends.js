@@ -21,10 +21,10 @@ $(function(){
 
 // Hover effects on profile pictures
   $('.profile').mouseenter(function(){
-    $(this).animate({height: '+=150px',width: '+=150px'}, 400);
+    $(this).animate({height: '+=80px',width: '+=80px'}, 400);
   });
   $('.profile').mouseleave(function(){
-    $(this).animate({height: '-=150px', width: '-=150px'}, 400);
+    $(this).animate({height: '-=80px', width: '-=80px'}, 400);
   });
 
 });
