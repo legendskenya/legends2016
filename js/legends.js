@@ -7,16 +7,14 @@ $('.hamburger').click(function() {
     $('.cross').show();
   });
 });
-
 $('.cross').click(function() {
   $('#menu').slideToggle("slow", function() {
     $('.cross').hide();
     $('.hamburger').show();
   });
 });
-
- $('li').mouseenter(function(){
-    $(this).animate({height: '+=15px'}, 100);
+$('li').mouseenter(function(){
+   $(this).animate({height: '+=15px'}, 100);
 });
 $('li').mouseleave(function(){
     $(this).animate({height: '-=15px'}, 100);
@@ -47,10 +45,10 @@ $(function(){
 
 // Hover effects on profile pictures
   $('.profile').mouseenter(function(){
-    $(this).animate({height: '+=80px',width: '+=80px'}, 400);
+    $(this).animate({height: '+=40px',width: '+=40px'}, 400);
   });
   $('.profile').mouseleave(function(){
-    $(this).animate({height: '-=80px', width: '-=80px'}, 400);
+    $(this).animate({height: '-=40px', width: '-=40px'}, 400);
   });
 });
 

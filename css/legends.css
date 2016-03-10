@@ -59,8 +59,8 @@ html, body, .mysection{
 .hamburger{
     background: none;
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 8%;
+  right: 5%;
   line-height: 45px;
   padding: 0px 15px 0px 15px;
   color: #fff;
@@ -75,8 +75,8 @@ html, body, .mysection{
 .cross {
   background: none;
   position: absolute;
-  top: 0px;
-  right: 0;
+  top: 8%;
+  right: 5%;
   padding: 0px 15px 0px 15px;
   color: #fff;
   border: 0;
@@ -92,7 +92,7 @@ html, body, .mysection{
   height: 100%;
   color: white solid;
   position: absolute;
-    background-color: rgba(212,175,55, 0.5);
+    background-color: rgba(240,179,35, 0.7);
   z-index: 8;
 }
 
@@ -123,8 +123,20 @@ html, body, .mysection{
     left: 5%;
 }
 #head{
-  font-size: 4em;
+  font-size: 2em;
   color: #fff;
+    padding-top: 150px;
+    text-align: center;
+}
+#head h1{
+    margin: 0 auto;
+    color: #ffffff;
+}
+.todoing{
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    padding-bottom: 20px;
 }
 .slider{
   position: absolute;
@@ -233,24 +245,16 @@ html, body, .mysection{
   overflow-x: hidden;
 }
 #people img{
-  /*padding: 3px;*/
-}
-#people p{
-  text-align: justify;
+    max-width: 100%;
+    height: auto;
 }
 #people a{
   position: relative;
 }
-#people a:hover span{
-  display: block;
-}
 #people a span{
   display: none;
-  position: absolute;top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  background: rgba(0,0,0,0.6);
+  position: absolute;
+  background: rgba(0,0,0,0.3);
 }
 .toword{
   bottom: 5%;
